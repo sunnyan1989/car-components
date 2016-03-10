@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- <meta> charset attribuete: specify the character encoding for the HTML document; UTF-8: Character encoding for unicode. -->
+    <title>Price List</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href = "http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-switch/3.3.2/css/bootstrap3/bootstrap-switch.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.4/angular.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.4/angular-route.min.js"></script>
+    <script type="text/javascript" src="main.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-switch/3.3.2/js/bootstrap-switch.min.js"></script>
+</head>
+<body ng-app="myApp" ng-controller="optionCtrl">
+	<div class="container">
+		<table class="table">
+			<tbody>
+				<tr ng-repeat="item in showFile.options | orderByPrice: 'price'"">
+		  		<td>
+					<span>{{item.optionKey + ' ' + item.long_name}}</span>
+				</td>
+		  		<td align="right">
+					<span class="listPrice" align="right" ng-bind="item.price | currency: '$': 0" ng-show="showPricing" ng-if="item.price !== 0"></span>
+					<span ng-if="item.price === 0" ng-show="showPricing">-</span>
+				</td>
+				</tr>
+				<tr>
+					<td>Show Pricing</td>
+					<td>
+						<div class="switch" align="right">
+							<input type="checkbox" ng-model="showPricing" bootstrap-switch />
+							<!--<input type="checkbox" name="my-checkbox" checked ng-model="showPricing" bootstrap-switch>-->
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td>Total Price</td>
+					<td align="right">
+						<span>
+							{{TotalPrice}}
+						</span>
+					</td>
+				</tr>
+			</tbody>
+		</table>
+	<div>
+
+<!--<pre>{{showFile | json}}</pre>-->
+<br/>
+<!-- <pre>{{optionPrices | json}}</pre> -->
+<!-- <div class="container">
+    <div ng-view></div>
+</div> -->
+</body>
+</html>

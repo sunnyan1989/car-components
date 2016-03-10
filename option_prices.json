@@ -1,0 +1,293 @@
+{
+    "base_price": 1000,
+    "options": {
+        "AD02": {
+            "is_default": true,
+            "list_price": 0,
+            "price": 0,
+            "price_indicator": "Included"
+        },
+        "AU00": {
+            "is_default": true,
+            "list_price": 0,
+            "price": 0,
+            "price_indicator": "Included"
+        },
+        "AU01": {
+            "is_default": false,
+            "list_price": 20,
+            "price": 20,
+            "price_indicator": "Optional"
+        },
+        "BC0R": {
+            "is_default": true,
+            "list_price": 0,
+            "price": 0,
+            "price_indicator": "Included"
+        },
+        "CH00": {
+            "is_default": true,
+            "list_price": 0,
+            "price": 0,
+            "price_indicator": "Included"
+        },
+        "CH01": {
+            "is_default": false,
+            "list_price": 15,
+            "price": 0,
+            "price_indicator": "Included"
+        },
+        "COL1": {
+            "is_default": false,
+            "list_price": 0,
+            "price": 0,
+            "price_indicator": "Included"
+        },
+        "COL2": {
+            "is_default": false,
+            "list_price": 50,
+            "price": 50,
+            "price_indicator": "Optional"
+        },
+        "COL3": {
+            "is_default": false,
+            "list_price": 75,
+            "price": 75,
+            "price_indicator": "Optional"
+        },
+        "CW00": {
+            "is_default": true,
+            "list_price": 0,
+            "price": 0,
+            "price_indicator": "Included"
+        },
+        "CW01": {
+            "is_default": false,
+            "list_price": 750,
+            "price": 750,
+            "price_indicator": "Optional"
+        },
+        "DRLH": {
+            "is_default": true,
+            "list_price": 0,
+            "price": 0,
+            "price_indicator": "Included"
+        },
+        "FG00": {
+            "is_default": false,
+            "list_price": 0,
+            "price": 0,
+            "price_indicator": "Included"
+        },
+        "FG01": {
+            "is_default": false,
+            "list_price": 0,
+            "price": 0,
+            "price_indicator": "Included"
+        },
+        "FG02": {
+            "is_default": false,
+            "list_price": 500,
+            "price": 500,
+            "price_indicator": "Optional"
+        },
+        "HP01": {
+            "is_default": false,
+            "list_price": 12,
+            "price": 0,
+            "price_indicator": "Included"
+        },
+        "HP02": {
+            "is_default": false,
+            "list_price": 21,
+            "price": 21,
+            "price_indicator": "Optional"
+        },
+        "IDCF": {
+            "is_default": false,
+            "list_price": 800,
+            "price": 800,
+            "price_indicator": "Optional"
+        },
+        "IDLW": {
+            "is_default": false,
+            "list_price": 60,
+            "price": 60,
+            "price_indicator": "Optional"
+        },
+        "IX00": {
+            "is_default": true,
+            "list_price": 0,
+            "price": 0,
+            "price_indicator": "Included"
+        },
+        "IX01": {
+            "is_default": false,
+            "list_price": 15,
+            "price": 15,
+            "price_indicator": "Optional"
+        },
+        "LT00": {
+            "is_default": false,
+            "list_price": 0,
+            "price": 0,
+            "price_indicator": "Included"
+        },
+        "PA00": {
+            "is_default": true,
+            "list_price": 0,
+            "price": 0,
+            "price_indicator": "Included"
+        },
+        "PA01": {
+            "is_default": false,
+            "list_price": 90,
+            "price": 90,
+            "price_indicator": "Optional"
+        },
+        "PBSB": {
+            "is_default": true,
+            "list_price": 0,
+            "price": 0,
+            "price_indicator": "Included"
+        },
+        "PBT85": {
+            "is_default": true,
+            "list_price": 135,
+            "price": 135,
+            "price_indicator": "Optional"
+        },
+        "PF00": {
+            "is_default": true,
+            "list_price": 0,
+            "price": 0,
+            "price_indicator": "Included"
+        },
+        "PK01": {
+            "is_default": false,
+            "list_price": 80,
+            "price": 80,
+            "price_indicator": "Optional"
+        },
+        "PS00": {
+            "is_default": true,
+            "list_price": 0,
+            "price": 0,
+            "price_indicator": "Included"
+        },
+        "PS01": {
+            "is_default": false,
+            "list_price": 10,
+            "price": 10,
+            "price_indicator": "Optional"
+        },
+        "PX01": {
+            "is_default": false,
+            "list_price": 6500,
+            "price": 6500,
+            "price_indicator": "Optional"
+        },
+        "QZMB": {
+            "is_default": false,
+            "list_price": 25,
+            "price": 25,
+            "price_indicator": "Optional"
+        },
+        "QZMT": {
+            "is_default": false,
+            "list_price": 25,
+            "price": 25,
+            "price_indicator": "Optional"
+        },
+        "RFBC": {
+            "is_default": true,
+            "list_price": 0,
+            "price": 0,
+            "price_indicator": "Included"
+        },
+        "SC00": {
+            "is_default": true,
+            "list_price": 0,
+            "price": 0,
+            "price_indicator": "Included"
+        },
+        "SC01": {
+            "is_default": true,
+            "list_price": 100,
+            "price": 100,
+            "price_indicator": "Optional"
+        },
+        "SU00": {
+            "is_default": true,
+            "list_price": 0,
+            "price": 0,
+            "price_indicator": "Included"
+        },
+        "SU01": {
+            "is_default": false,
+            "list_price": 22,
+            "price": 22,
+            "price_indicator": "Optional"
+        },
+        "TM00": {
+            "is_default": true,
+            "list_price": 0,
+            "price": 0,
+            "price_indicator": "Included"
+        },
+        "TP00": {
+            "is_default": true,
+            "list_price": 0,
+            "price": 0,
+            "price_indicator": "Included"
+        },
+        "TP01": {
+            "is_default": true,
+            "list_price": 30,
+            "price": 30,
+            "price_indicator": "Optional"
+        },
+        "TR00": {
+            "is_default": true,
+            "list_price": 0,
+            "price": 0,
+            "price_indicator": "Included"
+        },
+        "TR01": {
+            "is_default": false,
+            "list_price": 25,
+            "price": 25,
+            "price_indicator": "Optional"
+        },
+        "WT19": {
+            "is_default": true,
+            "list_price": 0,
+            "price": 0,
+            "price_indicator": "Included"
+        },
+        "WT21": {
+            "is_default": false,
+            "list_price": 80,
+            "price": 80,
+            "price_indicator": "Optional"
+        },
+        "WTSP": {
+            "is_default": false,
+            "list_price": 45,
+            "price": 45,
+            "price_indicator": "Optional"
+        },
+        "WTSS": {
+            "is_default": false,
+            "list_price": 40,
+            "price": 40,
+            "price_indicator": "Optional"
+        },
+        "X019": {
+            "is_default": false,
+            "list_price": 0,
+            "price": 0,
+            "price_indicator": "Included"
+        }
+    }
+}
